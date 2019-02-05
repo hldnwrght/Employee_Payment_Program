@@ -1,0 +1,26 @@
+Goal: To read a file and be able to display specific information and calculate a paycheck.
+
+Input:
+- A file and a few user inputs
+
+Output:
+-Desired information such as specific information from file, and a calculated paycheck
+
+Requirements:
+-Must use java
+-Must save to an array
+-Must have a UML diagram
+-must have 2 menu screens
+-must take in a file and be able to split up the file into different parts
+-must use inheritance
+-must use specified classes
+
+Step by Step details: 
+1.  Prompt the user to either load a file or exit the program
+2.  If the user chooses to load the file then the program reads the file
+3.  The program will save the information to an array
+4.  After reading the file the program it goes into a new menu screen
+5.  if the user inputs a 1 specific user information read from the file is printed and the program loops back to menu 2
+6.  If the user inputs a 2 the user can input an amount for hours to calculate a paycheck.
+7.  If the user inputs a 3 and the user has inputted an amount for hours then it prints out the ID and check amount
+8.  If the user inputs a 4 then the program exits.
